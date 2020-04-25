@@ -1,0 +1,22 @@
+.carousel-inner img {
+width:100%;
+}
+.introduction{
+  background-color: #f0f0f0;
+}
+.Accolades{
+  background-color: #323232;
+  color:#cd9a00;
+}
+.Display-3{
+  color:#f4b801;
+}
+
+.footer{
+  color: #3f3f3f;
+  padding-top: 2rem;
+}
+.light{
+  border-top: 1px solid #d5d5d5;
+  width:75%;
+}

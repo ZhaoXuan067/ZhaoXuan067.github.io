@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videos <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pictures <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Others
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">News</a>
+              <a class="dropdown-item" href="#">Team</a>
+              <a class="dropdown-item" href="#">Timeline</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+      </li>
+         </ul>
+     </div>
+</nav>
+<!--- Image Slider -->
+<div class="container">
+<div id="slides" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/picture5.jpg">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/picture4.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="img/picture1.jpg">
+      </div>
+    </div>
+  </div>
+  </div>
+
+<br>
+<br>
+<br>
+<!--- introduction -->
+<div class="container-fluid">
+  <div class="row introduction">
+    <div class="col-xs-12 col-sm-12 col-md-8 clo-lg-9 col-xl-9">
+      <br>
+      <br>
+          <h1>Introduction</h1>
+      <p class="lead">Modern Family is an American television mockumentary family sitcom,which ran for eleven seasons, from September 23, 2009 to April 8, 2020, and follows the lives of Jay Pritchett and his family, all of whom live in suburban Los Angeles. Pritchett's family includes his second wife, their son and his stepson, as well as his two adult children and their husbands and children.The show addresses the changing social norms and culture throughout the 2000s and 2010s.
+        </p>
+				<button type="button" class="btn btn-outline-dark">Watch it now</button>
+    </div>
+    <div class="clo-xs-12 col-sm-12 col-md-4 clo-lg-3 col-xl-3">
+      <br>
+      <br>
+      <img src="img/picture6.jpg" width="80%">
+      <br>
+      <br>
+      <br>
+  </div>
+</div>
+</div>
+
+<!--- Famlily tree -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click for family tree</button>
+<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="rol-12">
+				<img src="img/family tree.png" width=70%>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- the Cast -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+      <br>
+			<h1 class="display-4">Cast</h1>
+      <br>
+		</div>
+	</div>
+</div>
+
+
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="img/Ed_O'Neill.jpg"width="60%" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Ed O'Neill</h5>
+      <p class="card-text">As Jay Pritchett</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/Sofia Vergara.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Sofia Vergara</h5>
+      <p class="card-text">As  Gloria Delgado, Jay's second wife</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/Julie Bowen.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Julie Bowen</h5>
+      <p class="card-text">As Claire Dunphy, Jay's daughter</p>
+    </div>
+  </div>
+
+<div class="card">
+  <img class="card-img-top" src="img/Ty Burrell.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Ty Burrell</h5>
+    <p class="card-text">Phil Dunphy, Claire's husband</p>
+  </div>
+</div>
+<div class="card">
+  <img class="card-img-top" src="img/JesseTyler Ferguson.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Jesse Tyler Ferguson</h5>
+    <p class="card-text">Mitchell Pritchett, Jay's son</p>
+  </div>
+</div>
+<div class="card">
+  <img class="card-img-top" src="img/Eric Stonestreet.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Eric Stonestreet</h5>
+    <p class="card-text">Cameron Tucker, Mitchell's husband</p>
+  </div>
+</div>
+<!--- Best Moments -->
+
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+      <br>
+      <br>
+      <br>
+			<h1 class="display-4">Best Moments</h1>
+		</div>
+		<div class="col-12">
+			<p class="lead">Let's take a look back at the best moments that ever touched us so deeply.</p>
+  <hr class="my-4">
+      <br>
+      <br>
+      <br>
+		</div>
+	</div>
+
+</div>
+
+<!--- Quote -->
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0">The key to being a good dad? Sometimes things work out just the way you want. Sometimes they don't. You gotta hang in there. Because when all is  said and done, 90% of being a dad is just showin'up.</p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S01 E02, Jay's answer to "What's the key to being a great dad?"</cite></footer>
+      </blockquote>
+      <br>
+    </div>
+    <div class="col-lg-4">
+      <br>
+      <img src="img/S1E2.jpg"width="70%" class="rounded-circle">
+    </div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-4">
+      <img src="img/S2E23.jpg"width="70%" class="rounded-circle">
+    </div>
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0"> It' ironic that I stand up here representing my classmates when they're so awesome.They should be up here themselves.But I'm up here, and I'm sayin' stuff, 'cause everybody's got their stuff, whether you're popular, or a drama geek, or a cheerleader or even a nerd like me. We all have insecurities.We're all just trying to figure out who we are. I guess I'm trying to say is, don't stop believin'. Get this party started!</p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S02 E023, Alex's lecture as the represent of students in middle-school graduation ceremony</cite></footer>
+      </blockquote>
+      <br>
+    </div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0">There's certain moments in life that you never forget, like when I held Manny in my arms for the very first time. I was nervous. I didn't know what I was doing. And I was excited to see him grow up. And the more he becomes the little man I know today, the more I know I would do it all over again, which is good, because I'm going to do it all over again.</p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S03 E24, Gloria's speech when she found she was pregnant.</cite></footer>
+      </blockquote>
+      <br>
+    </div>
+    <div class="col-lg-4">
+      <img src="img/S3E24.jpg"width="70%" class="rounded-circle">
+    </div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-4">
+      <img src="img/S4E2.jpg"width="70%" class="rounded-circle">
+    </div>
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0"> Take a lesson from parakeets. If you're ever feeling lonely, just eat in front of a mirror.</p>
+        <p class="mb-0"> Never be afraid to reach for the stars, because even if you fall, you'll always be wearing a parent-chute@TM.</p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S04 E02, quoted from "Phil's-psophy", the book that Phil writes and gave to Haley as a present when she got into college </cite></footer>
+      </blockquote>
+      <br>
+    </div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+		<div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0">I was his big sister, his big brother, his nemesis, his protector, his best friend. I was his first partner. And I loved every minute of it. So naturally, I  was a little picky when it came to who was going to be replacing me, And then I met this Cam.</p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S05 E24, Claire at Mitchell & Cam'wedding</cite></footer>
+      </blockquote>
+      <br>
+		</div>
+  <div class="col-lg-4">
+    	<img src="img/S5E24.jpg"width="70%" class="rounded-circle">
+    <br>
+  </div>
+  	</div>
+    	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-4">
+      <img src="img/S6E19.jpg"width="70%" class="rounded-circle">
+    </div>
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0"> Hey, you're going. I know you. You've never backed down from a challenge your whole life. Now, I could lie to you and tell you it's gonna be easy. It's not. It's gonna be hard. But you and I both know this is something you have to do. The family needs a leader, and I can't do it forever. You can handle it.</p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S06 E19, Jay said to Alex when Alex was struggling to making a decision on a challenging college</cite></footer>
+      </blockquote>
+      <br>
+    </div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0">Sometimes you're having one of those days where you are surrounded by people, but you still feel pretty lonely. All you want to do is go home to your comfort of your family, but sometime even your family can't give you that comfort, because it turns out they've all had one of those days too. All you can do is wait for days like that to be over. So you can go to bed and hope you wake up to a better tomorrow. </p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S07 E22, Dumphys' Family Camp 2.0</cite></footer>
+      </blockquote>
+      <br>
+    </div>
+    <div class="col-lg-4">
+      <img src="img/S7E22.jpg"width="70%" class="rounded-circle">
+    </div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-4">
+      <img src="img/S8E19.jpg"width="70%" class="rounded-circle">
+    </div>
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0"> Sometimes life can be simpler than we think. We're born, we die, and in between, if we're lucky, we laugh, which makes the journey worth taking. With that in mind, do you, Frank Dunphy, the silliest man I know, take Larraine to be your long-suffering wife?</p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S08 E19, Phil' lecture at Frank & Larraine's wedding</cite></footer>
+      </blockquote>
+      <br>
+    </div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0">As young men, we'd hike this path up to an old oak tree, where we' brainstorm how to conquer the closet universe. We foolishly thought that we knew everything back then. But hopefully, I've learned a few things through the years. Like,  live today as if there's no tomorrow, that it's not too late to right past wrongs, and when things are looking down, look up or take chances you never imagined you would. </p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S09 E13, the note Jay's old nemesis Earl left for him after Earl's death</cite></footer>
+      </blockquote>
+      <br>
+    </div>
+    <div class="col-lg-4">
+      <img src="img/S9E13.jpg"width="70%" class="rounded-circle">
+    </div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-4">
+      <img src="img/S10E2.jpg"width="70%" class="rounded-circle">
+    </div>
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0"> Remember the day we met? I was walking through the halls, and I saw the most beautiful girl, and I was like, "Whoa! Who is that?" And you were like, "That's Rebecca Salkin."And then I turned and saw you for the first time, and I was done with Rebecca Salkin.Haley, I fell in love with you that day, and I've never stopped.</p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S10 E02, Dylan expressed his deeply feelings to Haley</cite></footer>
+      </blockquote>
+      <br>
+    </div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<div class="container-fluid padding">
+	<div class="row Quote">
+    <div class="col-lg-8">
+      <blockquote class="blockquote">
+        <br>
+        <p class="mb-0">-They are really leaving. What do we do?</p>
+        <p class="mb-0">-What people have always done. Leave the porch light on.</p>
+        <br>
+        <footer class="blockquote-footer">From <cite title="Source Title">Modern Family S11 E18, the conversation between Claire and Phil when kids were leaving home</cite></footer>
+      </blockquote>
+      <br>
+    </div>
+    <div class="col-lg-4">
+      <img src="img/S11E18.jpg"width="70%" class="rounded-circle">
+			<br>
+			<br>
+    </div>
+	</div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row Accolades">
+		<div class="col-lg-6">
+      <br>
+      <h1 class="display-3">Accolades</h1>
+      <br>
+			<h2> 22 Primetime Emmy Awards </h2>
+			<h2> 6 Writers Guild of America Awards</h2>
+      <h2> A GLSEN Respect Award </h2>
+			<br>
+		</div>
+		<div class="col-lg-6">
+			<img src="img/Season 11.jpg" class="img-fluid">
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+	<div class="container-fluid padding">
+		<div class="row text-center">
+      <div class="col-md-3">
+			</div>
+			<div class="col-md-6">
+				<br>
+        <h1 class="display-4">IN MEMORY OF THE BSET FAMILY EVER</h1>
+			<hr class="light">
+			<h5>Connect </h5>
+			<hr class="light">
+			<p>Email:1416533788@qq.com</p>
+			<p>微信号：yubuluo5379</p>
+		</div>
+		<div class="col-md-3">
+	</div>
+	<div class="rol-12">
+		<hr class="light">
+		<p>&copy; 所用材料均来源于网络，如有侵权立刻删除。</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
